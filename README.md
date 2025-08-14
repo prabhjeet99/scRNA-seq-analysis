@@ -4,7 +4,7 @@
 > 
 >Also generates polar plots in svg format which can be further modified by ***CorelDRAW***
 
-This scRNA-seq analysis uses the Yao et al. data set from Allen Institute.  
+This scRNA-seq analysis uses the _Yao et al._ data set from Allen Institute.  
 For more information: https://doi.org/10.1038/s41586-023-06812-z
 
 
@@ -54,3 +54,6 @@ This repository includes a file named `regions_to_plot.xlsx`, which specifies th
 
 ##  Output
 `plots.py` stores polar plots in `.svg` vector graphics format. These files were then edited and finalized in ***CorelDRAW*** for the final figure used in the paper.
+
+## Acknowledgements
+Parts of the workflow implemented in `analysis.py` were adapted from the R code provided by [@Erik-GirosLab] (https://github.com/Erik-GirosLab/sc-sn_RNAseq-Analysis) which analyzed dopamine receptor expression in microglia of the striatum using the Allen Institute _Yao et al._ dataset.
